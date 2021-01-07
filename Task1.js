@@ -17,7 +17,5 @@ describe('angularjs homepage', function() {
     var b =await element(by.css('div.text-block>div.text-headline')).getText();
     expect(b).toEqual('DEVELOP ACROSS ALL PLATFORMS');
     console.log(b);
-
-    console.log('changed')
     })
 })
