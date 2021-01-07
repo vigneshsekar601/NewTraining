@@ -8,7 +8,7 @@ describe('angularjs homepage', function() {
 
        var a=await browser.getTitle();
        expect(a).toEqual('Angular');
-       console.log( a);
+       console.log('hello every one')
 
       
     })
